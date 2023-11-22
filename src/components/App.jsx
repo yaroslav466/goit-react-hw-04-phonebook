@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 const exampleConact = [
   { id: 'id-1', name: 'Example Contact', number: '123-456-789' },
-];
+ ];
 
 export const App = () => {
   const [filter, setFilter] = useState('');
